@@ -1,3 +1,6 @@
+yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
+sudo yabai --load-sa
+
 # disable list
 yabai -m rule --add app="^系统设置$" manage=off
 yabai -m rule --add app="^计算器$" manage=off
@@ -12,6 +15,10 @@ yabai -m rule --add app="^终端$" manage=off
 yabai -m rule --add app="^ForkLift$" manage=off
 yabai -m rule --add app="^漫画$" manage=off
 yabai -m rule --add app="^Manico$" manage=off
+yabai -m rule --add app="^115" manage=off
+yabai -m rule --add app="^VidHub" manage=off
+yabai -m rule --add app="^Telegram Lite" manage=off
+yabai -m rule --add app="^Clash for Windows" manage=off
 
 # bsp, statck or float
 yabai -m config layout bsp
@@ -19,10 +26,10 @@ yabai -m config layout bsp
 yabai -m config window_placement second_child
 
 # padding set to 12px
-yabai -m config top_padding 6
-yabai -m config bottom_padding 6
-yabai -m config left_padding 6
-yabai -m config right_padding 6
+# yabai -m config top_padding 6
+# yabai -m config bottom_padding 6
+# yabai -m config left_padding 6
+# yabai -m config right_padding 6
 yabai -m config window_gap 6
 
 # center mouse on window with focus
