@@ -25,6 +25,12 @@ yabai -m rule --add app="^ChatGPT$" manage=off
 yabai -m rule --add app="^钱迹$" manage=off
 yabai -m rule --add app="^Noi$" manage=off
 yabai -m rule --add app="^OpenAI Translator$" manage=off
+yabai -m rule --add app="^iTerm2$" manage=off
+yabai -m rule --add app="^Conflux$" manage=off
+yabai -m rule --add app="^Electron$" manage=off
+yabai -m rule --add app="^Stats$" manage=off
+yabai -m rule --add app="^QSpace Pro$" manage=off
+yabai -m rule --add app="^Spotify$" manage=off
 
 # bsp, statck or float
 yabai -m config layout bsp
