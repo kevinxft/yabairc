@@ -31,9 +31,10 @@ yabai -m rule --add app="^Electron$" manage=off
 yabai -m rule --add app="^Stats$" manage=off
 yabai -m rule --add app="^QSpace Pro$" manage=off
 yabai -m rule --add app="^Spotify$" manage=off
+yabai -m rule --add app="^Airy$" manage=off
 
 # bsp, statck or float
-yabai -m config layout bsp
+yabai -m config layout statck
 
 yabai -m config window_placement second_child
 
