@@ -20,21 +20,27 @@ yabai -m rule --add app="^VidHub$" manage=off
 yabai -m rule --add app="^Telegram Lite$" manage=off
 yabai -m rule --add app="^Clash for Windows$" manage=off
 yabai -m rule --add app="^预览$" manage=off
-yabai -m rule --add app="^Obsidian$" manage=off
+yabai -m rule --add app="^Obsidian$" manage=off layer=above stick=on
 yabai -m rule --add app="^ChatGPT$" manage=off
 yabai -m rule --add app="^钱迹$" manage=off
 yabai -m rule --add app="^Noi$" manage=off
 yabai -m rule --add app="^OpenAI Translator$" manage=off
-yabai -m rule --add app="^iTerm2$" manage=off
+yabai -m rule --add app="^iTerm2$" manage=off layer=above
 yabai -m rule --add app="^Conflux$" manage=off
 yabai -m rule --add app="^Electron$" manage=off
 yabai -m rule --add app="^Stats$" manage=off
 yabai -m rule --add app="^QSpace Pro$" manage=off
-yabai -m rule --add app="^Spotify$" manage=off
+yabai -m rule --add app="^Spotify$" manage=off float=on topmost=on
 yabai -m rule --add app="^Airy$" manage=off
+yabai -m rule --add app="^MenubarX$" manage=off
+yabai -m rule --add app="^Obsidian$" manage=off
 
 # bsp, statck or float
-yabai -m config layout statck
+yabai -m config layout bsp
+
+yabai -m config window_topmost on
+
+yabai -m config --space 2 layout float
 
 yabai -m config window_placement second_child
 
